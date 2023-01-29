@@ -111,38 +111,58 @@ body {
 }
 
 .images-container {
-    display: grid;
-    grid-template-areas:
-    'coffee1 coffee1 coffee5 coffee5'
-    'coffee3 coffee3 coffee3 coffee4';
+    padding: 50px;
+    background-color: rgb(255, 218, 203, 0.4);
 }
 
-.coffee-image1 {
-    width: 400px;
-    height: 175px;
-    grid-area: coffee1;
-}
-
-.coffee-image2 {
-    width: 575px;
-    height: 270px;
-    grid-area: coffee2;
-}
-
-.coffee-image3 {
-    width: 700px;
-    height: 360px;
-    grid-area: coffee3;
-}
-
-.coffee-image4 {       
-    width: 500px;
-    height: 300px;
-    grid-area: coffee4;
-}
-
+.coffee-image1, 
+.coffee-image2, 
+.coffee-image3, 
+.coffee-image4, 
 .coffee-image5 {
-    width: 300px;
-    height: 175px;
-    grid-area: coffee5;
+    width: 550px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.text1_container,
+.text2_container,
+.text3_container,
+.text4_container,
+.text5_container {
+    width: 550px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.coffee1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.coffee2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.coffee3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.coffee4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.coffee5 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
